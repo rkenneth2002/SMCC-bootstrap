@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BS SMCC</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-weight: bold">S M C C</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#courses">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="home" class="container-fluid text-center p-5">
+        <img src="logo.png" class="rounded mx-auto d-block p-3" alt="" />
+        <h1>SAINT MICHAEL COLLLEGE OF CARAGA</h1>
+      </div>
+      <div id="about" class="container-fluid text-center p-6 m-1">
+        <h2>About us</h2>
+        <br />
+        <h3 class="mt-auto">Vision</h3>
+        <hr />
+        <p>
+          Saint Michael College of Caraga envisions to be a university by 2035
+          and upholds spiritual formation and excellence in teaching, service,
+          and research.
+        </p>
+        <h3>Mission</h3>
+        <hr />
+        <p>
+          SMCC shall provide spiritual formation and learning culture that will
+          ensure the students with excellent and rewarding learning experience
+          that transform lives, abound spirituality, develop skills and prepare
+          future leaders; <br />SMCC shall engage to dynamic, innovative, and
+          interdisciplinary researches that are publishable to advance and
+          achieve institutional initiatives; and <br />SMCC shall commit to
+          serve the diverse and local communities in fostering innovations
+          through service-learning that enhances reciprocal community
+          partnerships for spiritual and social development.
+        </p>
+
+        <h3>Michaelinian Identity</h3>
+        <hr />
+        <p>
+          Secured by Saint Michael the Archangel’s Sword of Bravery and Victory,
+          nourished by the faithful acceptance and practice of the Christian
+          teachings and guidance of the Catholic church, animated by MARY’s
+          maternal devotion and intercession, guided by the gospel values,
+          empowered by Christ’s life and examples.
+        </p>
+      </div>
+      <!-- courses code -->
+      <hr />
+      <div id="courses" class="container-fluid text-center p-6 m-1">
+        <h2>Courses</h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                College of Arts and Science
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Provident animi hic esse, ut nam, aliquam cupiditate nisi
+                  error expedita, est sequi nulla ex sit consequatur earum?
+                  Earum officiis architecto vitae?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                College of Tourism, Hospitality and Business and Management
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Provident animi hic esse, ut nam, aliquam cupiditate nisi
+                  error expedita, est sequi nulla ex sit consequatur earum?
+                  Earum officiis architecto vitae?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                College of Computing Information Science
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Provident animi hic esse, ut nam, aliquam cupiditate nisi
+                  error expedita, est sequi nulla ex sit consequatur earum?
+                  Earum officiis architecto vitae?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                College of Criminal Justice Education
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Provident animi hic esse, ut nam, aliquam cupiditate nisi
+                  error expedita, est sequi nulla ex sit consequatur earum?
+                  Earum officiis architecto vitae?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                College of Teacher Education
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Provident animi hic esse, ut nam, aliquam cupiditate nisi
+                  error expedita, est sequi nulla ex sit consequatur earum?
+                  Earum officiis architecto vitae?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <div id="service" class="container-fluid text-center p-6 m-1">
+        <h2>Services</h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="true"
+                aria-controls="collapseSix"
+              >
+                Student Services
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingSeven"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven"
+                aria-expanded="false"
+                aria-controls="collapseSeven"
+              >
+                Online Services
+              </button>
+            </h2>
+            <div
+              id="collapseSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSeven"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <hr />
+    <footer class="d-flex gap-5 align align-items-center">
+      <h2>Contact Us:</h2>
+      <a href=""><i class="bx bxl-facebook-square"></i>SMCC FACEBOOK</a>
+      <a href=""><i class="bx bx-envelope"></i>SMCC GMAIL</a>
+      <a href=""><i class="bx bxs-phone"></i>SMCC NUMBER</a>
+    </footer>
+  </body>
+</html>
